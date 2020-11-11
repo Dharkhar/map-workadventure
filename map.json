@@ -126,7 +126,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"tilesets_deviant_milkian_1.png",
+         "image":"tilesets\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -1049,7 +1049,7 @@
         {
          "columns":8,
          "firstgid":257,
-         "image":"floortileset.png",
+         "image":"tilesets\/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -1072,7 +1072,7 @@
         {
          "columns":16,
          "firstgid":321,
-         "image":"Interiors_free_32x32.png",
+         "image":"tilesets\/Interiors_free_32x32.png",
          "imageheight":960,
          "imagewidth":512,
          "margin":0,
@@ -5406,7 +5406,7 @@
         {
          "columns":16,
          "firstgid":801,
-         "image":"inside_32x32.png",
+         "image":"tilesets\/inside_32x32.png",
          "imageheight":336,
          "imagewidth":512,
          "margin":0,
@@ -6860,7 +6860,7 @@
         {
          "columns":6,
          "firstgid":961,
-         "image":"custom_ws_32x32.png",
+         "image":"tilesets\/custom_ws_32x32.png",
          "imageheight":128,
          "imagewidth":192,
          "margin":0,
@@ -6873,7 +6873,7 @@
         {
          "columns":8,
          "firstgid":985,
-         "image":"fantasy.png",
+         "image":"tilesets\/fantasy.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
@@ -6886,7 +6886,7 @@
         {
          "columns":8,
          "firstgid":2049,
-         "image":"carpet-34x34.png",
+         "image":"tilesets\/carpet-34x34.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -6899,7 +6899,7 @@
         {
          "columns":16,
          "firstgid":2113,
-         "image":"general.png",
+         "image":"tilesets\/general.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -9217,7 +9217,7 @@
         {
          "columns":16,
          "firstgid":2369,
-         "image":"office_2.png",
+         "image":"tilesets\/office_2.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
