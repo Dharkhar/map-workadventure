@@ -1,6 +1,7 @@
 <html>
     <head>
-        <script>
+        <!-- Script are not used for us, static URL is used instead -->
+        <!--<script>
             window.onload = function() {
                 var path = window.location.pathname;
                 if (path.endsWith('index.html')) {
@@ -10,11 +11,47 @@
                 document.getElementById('mapLink').href = url;
                 document.getElementById('mapLink').innerText = url;
             };
-        </script>
+        </script>-->
     </head>
+
+    <style>
+        .button {
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        
+        .button1 {background-color: #503078;} /* Purple */
+    </style>
+
     <body>
-        This website contains a map for <a href="https://workadventu.re">Workadventu.re</a>.
+        <h1>Bienvenue au 17e virtuel !</h1><br/>
+        Il s'agit d'une représentation plus ou moins réaliste du 17e étage de la tour Franklin, dans un style retro-gaming.<br/>
+        Vous pourrez vous balader dans l'étage, et surtout vous pourrez discuter facilement avec vos collègues, comme vous le feriez en open-space : en s'approchant et en parlant !<br/>
         <br/>
-        You can access this map at <a id="mapLink" href=""></a>
+        Pour accéder à la map :<br/>
+        <a href="https://play.workadventu.re/_/cdt/dharkhar.github.io/map-workadventure/map.json"><button class="button button1">Aller au 17e</button></a><br/>
+        <br/>
+        Pensez à mettre cette page en favoris et à vous connecter en début de journée, ce sera plus convivial !<br/>
+        <br/>
+        Tuto :<br/>
+        <ul type="square">
+            <li>Le micro et la caméra ne s'activent que lorsque vous êtes proche de quelqu'un d'autre. C'est pratique pour les pauses cafés, mais aussi pour aller voir quelqu’un pour une rapide question, comme vous le feriez dans l'open-space.</li>
+            <li>On ne peut pas être plus de 4 dans un cercle de discussion</li>
+            <li>Point de vue sécu : l'URL n'est pas privée, il suffit de la connaître donc dans l'absolu rien n'empêche quelqu'un de squatter ce serveur. Attention donc à ne pas partager sur votre écran des documents de travail via cet outil !</li>
+            <li>Pas besoin d'être sur son PC Wavestone : vous pouvez utiliser un autre ordi pour garder le contact, pratique quand on est tout le temps sur un pc client.</li>
+            <li>Sur la partie droite de l'étage, j'ai refait des call box. Une fois dans celle-ci le son et le micro sont automatiquement coupés pour ne pas être dérangé.</li>
+            <li>Vous pouvez dézoomer la page web pour voir un peu plus large.</li>
+            <li>Pour toute question, idée, envie de participer : <a href="mailto:thomas.niederberger@wavestone.com">thomas.niederberger@wavestone.com</a>.</li>
+            <li>Si vous êtes curieux, le code de la map est sur <a href="https://github.com/Dharkhar/map-workadventure">Github</a>, et cette petite web app est basée sur <a href="https://workadventu.re">Workadventu.re</a>.</li>
+        </ul>
+        <br/>
+        <img src="https://raw.githubusercontent.com/Dharkhar/map-workadventure/master/tutorial/tutorial.png">
     </body>
 </html>
