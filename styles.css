@@ -12,7 +12,7 @@ p { /* Paragraph style */
     text-align: justify;
 }
 
-h1 { /* Header style 2 */
+h1 { /* Header style 1 */
     font-weight: bold;
     color: #503078;
     font-size: 70px;
@@ -47,15 +47,16 @@ h2 { /* Header style 2 */
 
 .main-section {
     text-align: center;
+    /*width: 100%;*/
     padding-top: 30px;
     padding-bottom: 50px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .white-section {
     background-color: white;
-    width: 80%;
+    /*width: 100%;*/
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 30px;
