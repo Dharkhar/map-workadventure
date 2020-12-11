@@ -12,13 +12,13 @@ p { /* Paragraph style */
     text-align: justify;
 }
 
-h1 { /* Header style 1 */
+.title { /* Header style 1 */
     font-weight: bold;
     color: #503078;
     font-size: 70px;
 }
   
-h2 { /* Header style 2 */
+.subtitle { /* Header style 2 */
     font-weight: bold;
     color: #503078;
     font-size: 30px;
@@ -35,19 +35,23 @@ h2 { /* Header style 2 */
     border: none;
     color: white;
     background-color: #503078;
+    border-radius: 10px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    /*margin: 4px 2px;*/
     cursor: pointer;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .main-section {
     text-align: center;
-    /*width: 100%;*/
     padding-top: 30px;
     padding-bottom: 50px;
     padding-left: 200px;
@@ -55,14 +59,13 @@ h2 { /* Header style 2 */
 }
 
 .white-section {
-    background-color: white;
-    /*width: 100%;*/
+    background-color: #fff;
+    border-radius: 20px;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
-    /*box-shadow: 10px 10px rgba(0, 0, 0, 0.4);*/
 }
 
 ul { /* Bullet point without icon */
