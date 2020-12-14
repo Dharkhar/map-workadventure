@@ -54,8 +54,8 @@ p { /* Paragraph style */
     text-align: center;
     padding-top: 30px;
     padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .white-section {
